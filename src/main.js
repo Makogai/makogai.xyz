@@ -11,7 +11,7 @@ createApp(App)
 	.use(router)
 	.use(BackToTop)
 	.mount('#app');
-
+localStorage.setItem('theme', 'dark');
 const appTheme = localStorage.getItem('theme');
 
 // Check what is the active theme
